@@ -1,0 +1,68 @@
+
+/* ------------------------------------------------------------------- 
+ * ## section header
+ * ------------------------------------------------------------------- */
+ .section-header {
+    text-align: center;
+    position: relative;
+    margin-bottom: 3.6rem;
+    max-width: 960px;
+}
+
+.section-header.has-bottom-sep {
+    padding-bottom: 2.1rem;
+    position: relative;
+}
+
+.section-header.has-bottom-sep::before {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.section-header.has-bottom-sep.light-sep::before {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * section-header
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    .section-header {
+        max-width: 800px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .section-header {
+        max-width: 700px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .s-clients {
+        padding-bottom: 17.4rem;
+    }
+    .section-header.has-bottom-sep::before {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section-header.has-bottom-sep {
+        padding-bottom: 0;
+    }
+    .section-header.has-bottom-sep::before {
+        width: 250px;
+    }
+}

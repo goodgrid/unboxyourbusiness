@@ -27,6 +27,7 @@ const Landing = () => {
                             ervaringen ontwerpt <br/>
                             en implementeert.
                             */}
+                            
                         </h1>
 
                         <div className={styles["home-content__buttons"]}>

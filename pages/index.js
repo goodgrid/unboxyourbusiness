@@ -6,6 +6,7 @@ import Header from "../components/header.js";
 import Landing from "../sections/landing.js";
 import About from "../sections/about.js";
 import Services from "../sections/services.js";
+import Partners from "../sections/partners.js";
 import Contact from "../sections/contact.js";
 import Footer from "../components/footer.js";
 //import { Config } from "../components/config.js";
@@ -20,6 +21,7 @@ const Home = ( props, error ) => {
             <Landing />
             <About />
             <Services />
+            <Partners />
             <Contact />
             <Footer />
         </>

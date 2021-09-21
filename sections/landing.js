@@ -1,4 +1,5 @@
 import styles from "../styles/Landing.module.css";
+import Button from "../components/button.js";
 
 const Landing = () => {
 
@@ -16,35 +17,37 @@ const Landing = () => {
                         <h3>Let's start unboxing your business</h3>
 
                         <h1>
-                            Wij zijn een creatieve groep <br/>
+                            Wij ontwerpen en implementeren <br/>
+                            betekenisvolle digitale ervaringen <br/>
+                            voor medewerkers, klanten en partners <br/>
+                            van startende en groeiende organisaties.
+                            {/*Wij zijn een creatieve groep <br/>
                             mensen die betekenisvolle <br/>
                             organisaties en digitale  <br/>
-                            ervaringen ontwerpt en implementeert.
+                            ervaringen ontwerpt <br/>
+                            en implementeert.
+                            */}
                         </h1>
 
                         <div className={styles["home-content__buttons"]}>
-                            <a href="#contact" className="smoothscroll btn btn--stroke">
-                                Start een project
-                            </a>
-                            <a href="#about" className="smoothscroll btn btn--stroke">
-                                Meer over ons
-                            </a>
+                            <Button href="#contact" caption="Start een project"/>
+                            <Button href="#about" caption="Meer over ons"/>
                         </div>
 
                     </div>
 
-                    <div className="home-content__scroll">
+                    <div className={styles["home-content__scroll"]}>
                         <a href="#about" className="scroll-link smoothscroll">
                             <span>Scroll Down</span>
                         </a>
                     </div>
 
-                    <div className="home-content__line"></div>
+                    <div className={styles["home-content__line"]}></div>
 
                 </div> 
 
 
-                /*
+                {/*
                 <ul className="home-social">
                     <li>
                         <a href="#0"><i className="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
@@ -62,7 +65,7 @@ const Landing = () => {
                         <a href="#0"><i className="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
                     </li>
                 </ul> 
-                */
+                */}
 
 
             </section>  

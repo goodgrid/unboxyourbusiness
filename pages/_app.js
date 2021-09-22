@@ -2,11 +2,9 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import '../styles/general.css'
-
 import "/public/css/base.css"
 import "/public/css/fonts.css"
-import "/public/css/main.css"
+import "/styles/main.css"
 
 import "/public/css/micons/micons.css"
 

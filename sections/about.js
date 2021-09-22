@@ -26,28 +26,28 @@ const About = () => {
                 </div>
             </div> 
 
-            <div className="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+            <div className={`${"row"} ${styles["about-stats"]} ${styles["stats"]} ${"block-1-4"} ${"block-m-1-2"} ${"block-mob-full"}`} data-aos="fade-up">
                     
-                <div className="col-block stats__col ">
-                    <div className="stats__count">8</div>
+                <div className={`${"col-block"} ${styles["stats__col"]}`} >
+                    <div className={styles["stats__count"]}>8</div>
                     <h5>Netwerkpartners</h5>
                 </div>
-                <div className="col-block stats__col">
-                    <div className="stats__count">1505</div>
+                <div className={`${"col-block"} ${styles["stats__col"]}`} >
+                    <div className={styles["stats__count"]}>1505</div>
                     <h5>Koppen koffie</h5>
                 </div>
-                <div className="col-block stats__col">
-                    <div className="stats__count">109</div>
+                <div className={`${"col-block"} ${styles["stats__col"]}`} >
+                    <div className={styles["stats__count"]}>109</div>
                     <h5>Projecten afgerond</h5>
                 </div>
-                <div className="col-block stats__col">
-                    <div className="stats__count">20</div>
+                <div className={`${"col-block"} ${styles["stats__col"]}`} >
+                    <div className={styles["stats__count"]}>20</div>
                     <h5>Blije klanten</h5> 
                 </div>
 
             </div> 
 
-            <div className="about__line"></div>
+            <div className={styles["about__line"]}></div>
 
             </section>
       </>

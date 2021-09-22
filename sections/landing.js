@@ -5,7 +5,7 @@ const Landing = () => {
 
     return (
         <>
-            <section id="home" className={`${styles["s-home"]} ${"target-section"}`} data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width={3000} data-natural-height={2000} data-position-y="center">
+            <section id="home" className={`${styles["s-home"]} ${"target-section"}`} data-parallax="scroll" data-image-src="/images/hero-bg.jpg" data-natural-width={3000} data-natural-height={2000} data-position-y="center">
 
                 <div className={styles["overlay"]}></div>
                 <div className={styles["shadow-overlay"]}></div>

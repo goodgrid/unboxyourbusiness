@@ -1,49 +1,52 @@
+import styles from "../styles/Contact.module.css";
+
 const Contact = () => {
 
     return (
         <>  
 
-            <section id="contact" class="s-contact">   
+            <section id="contact" className={styles["s-contact"]}>   
 
-                <div class="overlay"></div>
-                <div class="contact__line"></div>
+                <div className={styles["overlay"]}></div>
+                <div className={styles["contact__line"]}></div>
 
-                <div class="row section-header" data-aos="fade-up">
-                    <div class="col-full">
-                        <h3 class="subhead">Contact</h3>
-                        <h1 class="display-2 display-2--light">Start een nieuw project of zeg gewoon even Hoi</h1>
+                <div className={`${"row"} ${"section-header"} `} data-aos="fade-up">
+                    <div className={"col-full"}>
+                        <h3 className={`${"subhead"} `} >Contact</h3>
+                        <h1 className={`${"display-2"} ${"display-2--light"}`}>Start een nieuw project of zeg gewoon even Hoi</h1>
                     </div>
-                </div>
+                </div> 
 
-                <div class="row contact-content" data-aos="fade-up">
+ 
+                <div className={`${"row"} ${styles["contact-content"]}`} data-aos="fade-up">
                     
-                    <div class="contact-primary">
+                    <div className={styles["contact-primary"]}>
 
-                        <h3 class="h6">Stuur een bericht</h3>
+                        <h3 className={"h6"}>Stuur een bericht</h3>
 
                         <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
                             <fieldset>
             
-                            <div class="form-field">
-                                <input name="contactName" type="text" id="contactName" placeholder="Je naam" value="" minlength="2" required="" aria-required="true" class="full-width"/>
+                            <div className={styles["form-field"]}>
+                                <input name="contactName" type="text" id="contactName" placeholder="Je naam" value="" minlength="2" required="" aria-required="true" className={"full-width"}/>
                             </div>
-                            <div class="form-field">
-                                <input name="contactEmail" type="email" id="contactEmail" placeholder="Je email" value="" required="" aria-required="true" class="full-width"/>
+                            <div className={styles["form-field"]}>
+                                <input name="contactEmail" type="email" id="contactEmail" placeholder="Je email" value="" required="" aria-required="true" className="full-width"/>
                             </div>
-                            <div class="form-field">
-                                <input name="contactSubject" type="text" id="contactSubject" placeholder="Onderwerp" value="" class="full-width"/>
+                            <div className={styles["form-field"]}>
+                                <input name="contactSubject" type="text" id="contactSubject" placeholder="Onderwerp" value="" className="full-width"/>
                             </div>
-                            <div class="form-field">
-                                <textarea name="contactMessage" id="contactMessage" placeholder="Je bericht" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                            <div className={styles["form-field"]}>
+                                <textarea name="contactMessage" id="contactMessage" placeholder="Je bericht" rows="10" cols="50" required="" aria-required="true" className="full-width"></textarea>
                             </div>
-                            <div class="form-field">
-                                <button class="full-width btn--primary">Sturen</button>
-                                <div class="submit-loader">
-                                    <div class="text-loader">Sturen...</div>
-                                    <div class="s-loader">
-                                        <div class="bounce1"></div>
-                                        <div class="bounce2"></div>
-                                        <div class="bounce3"></div>
+                            <div className={styles["form-field"]}>
+                                <button className={`${"full-width"} ${"btn--primary"}`}>Sturen</button>
+                                <div className={styles["submit-loader"]}>
+                                    <div className={styles["text-loader"]}>Sturen...</div>
+                                    <div className={styles["s-loader"]}>
+                                        <div className={styles["bounce1"]}></div>
+                                        <div className={styles["bounce2"]}></div>
+                                        <div className={styles["bounce3"]}></div>
                                     </div>
                                 </div>
                             </div>
@@ -52,23 +55,23 @@ const Contact = () => {
                         </form>
 
 
-                        <div class="message-warning">
+                        <div className={styles["message-warning"]}>
                             Er ging iets fout. Probeer het nog eens?
                         </div> 
                     
 
-                        <div class="message-success">
+                        <div className={styles["message-success"]}>
                             Verstuurd! Bedankt voor je bericht.<br/>
                         </div>
 
                     </div>
 
-                    <div class="contact-secondary">
-                        <div class="contact-info">
+                    <div className={styles["contact-secondary"]}>
+                        <div className={styles["contact-info"]}>
 
-                            <h3 class="h6 hide-on-fullwidth">Contactgegevens</h3>
+                            <h3 className={`{"h6"} ${"hide-on-fullwidth"}`}>Contactgegevens</h3>
 
-                            <div class="cinfo">
+                            <div className={"cinfo"}>
                                 <h5>Waar kun je ons vinden</h5>
                                 <p>
                                 Mr Treublaan 7<br/>
@@ -76,35 +79,38 @@ const Contact = () => {
                                 </p>
                             </div>
 
-                            <div class="cinfo">
+                            <div className={"cinfo"}>
                                 <h5>Mail ons op:</h5>
                                 <p>
                                     info@unboxyourbusiness.nl<br/>
                                 </p>
                             </div>
 
-                            <div class="cinfo">
+                            <div className={"cinfo"}>
                                 <h5>Bel ons op:</h5>
                                 <p>
                                     +31 (0) 84 873 5177<br/>
                                 </p>
                             </div>
 
-                            <ul class="contact-social">
+
+                            <span className={".icon-basket-ball"}></span>
+
+                            <ul className={styles["contact-social"]}>
                                 <li>
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i className={`${"fa"} ${"fa-facebook"}`} aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="#"><i className="fa fa-instagram" aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                                    <a href="#"><i className="fa fa-behance" aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                    <a href="#"><i className="fa fa-dribbble" aria-hidden="true"></i></a>
                                 </li>
                             </ul> 
 

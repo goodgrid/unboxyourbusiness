@@ -74,7 +74,7 @@ const Header = () => {
                     </a>
                 </div>
 
-                <Menu right styles={menuStyles} itemListElement="a" disableAutoFocus isOpen={ true }>
+                <Menu right styles={menuStyles} itemListElement="a" disableAutoFocus >
                     <div className={styles["header-nav__content"]}>
                         <h3>Menu</h3>
 

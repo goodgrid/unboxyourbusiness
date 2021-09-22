@@ -1,9 +1,11 @@
+import styles from "../styles/Footer.module.css";
+
 const Footer = () => {
 
     return (
         <>  
-            <footer>
-                <div className="row footer-main">
+            <footer className={styles["footer"]}>
+                <div className={`${"row"} ${styles["footer-main"]}`} >
                     <div className="col-six tab-full left footer-desc">
                         <a className="site-logo" href="/">
                             <img src="/images/unboxlogo.png" width="80px" alt="Homepage"/>
@@ -16,10 +18,10 @@ const Footer = () => {
                     </div>
 
                     <div className="col-six tab-full right footer-subscribe">
-                        <h4>Get Notified</h4>
+                        <h4 className={styles["h4"]}>Get Notified</h4>
                         <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
-                        <div className="subscribe-form">
-                            <form id="mc-form" className="group" novalidate="true">
+                        <div className={styles["subscribe-form"]}>
+                            <form id="mc-form" className={"group"} novalidate="true">
                                 <input type="email" value="" name="EMAIL" className="email" id="mc-email" placeholder="Email Address" required=""/>
                                 <input type="submit" name="subscribe" value="Subscribe"/>
                                 <label for="mc-email" className="subscribe-message"></label>
@@ -30,16 +32,16 @@ const Footer = () => {
 
                 </div>
 
-                <div className="row footer-bottom">
+                <div className={`${"row"} ${styles["footer-bottom"]}`} >
 
-                    <div className="col-twelve">
-                        <div className="copyright">
+                    <div className={"col-twelve"}>
+                        <div className={styles["copyright"]}>
                             <span>© Copyright Unboxyourbusiness 2021</span> 
                             
                         </div>
 
-                        <div className="go-top">
-                            <a className="smoothscroll" title="Back to Top" href="#top"><i className="icon-arrow-up" aria-hidden="true"></i></a>
+                        <div className={"go-top"}>
+                            <a className={`${styles["link"]} ${"smoothscroll"}`} title="Back to Top" href="#top"><i className={"icon-arrow-up"} aria-hidden="true"></i></a>
                         </div>
                     </div>
 
@@ -49,5 +51,6 @@ const Footer = () => {
       </>
       )
 }
+
 
 export default Footer;

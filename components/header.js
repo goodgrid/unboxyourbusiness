@@ -1,83 +1,96 @@
-//import styles from "../styles/Header.module.css";
 import Head from "next/head";
-import Link from "next/link";
 import Script from "next/script";
 import React, {useState} from "react";
-//import axios from 'axios';
-//import { Config } from "../components/config.js";
+import { slide as Menu } from 'react-burger-menu'
+import styles from "../styles/Header.module.css"
 
+var menuStyles = {
+    bmBurgerButton: {
+      position: 'fixed',
+      width: '36px',
+      height: '30px',
+      right: '36px',
+      top: '36px'
+    },
+    bmBurgerBars: {
+      background: '#39b54a'
+    },
+    bmBurgerBarsHover: {
+      background: '#39b54a'
+    },
+    bmCrossButton: {
+      height: '24px',
+      width: '24px'
+    },
+    bmCross: {
+      background: 'white'
+    },
+    bmMenuWrap: {
+      position: 'fixed',
+      height: '100%'
+    },
+    bmMenu: {
+      background: '#373a47',
+      padding: '2.5em 1.5em 0',
+      fontSize: '1.15em'
+    },
+    bmMorphShape: {
+      fill: '#373a47'
+    },
+    bmItemList: {
+      color: '#b8b7ad',
+      padding: '0.8em'
+    },
+    bmItem: {
+      display: 'inline-block'
+    },
+    bmOverlay: {
+      background: 'rgba(0, 0, 0, 0.3)'
+    }
+  }
+  
+  
 const Header = () => {
 
     return (
         <>
-
             <Head>
+                <title>Start unboxing your business</title>
 
-                <title>Unbox your business</title>
-
-                <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-                <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+                <link rel="shortcut icon" href="/favicon.png"/>
+                <link rel="icon" href="/favicon.png"/>
 
                 <script type="text/javascript" src="/js/pace.min.js"></script>
-                <script type="text/javascript" src="/js/modernizr.js"></script>
-
                 <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+                <script type="text/javascript" src="/js/client.js"></script>
                 <script type="text/javascript" src="/js/plugins.js"></script>
-                <script type="text/javascript" src="/js/main.js"></script>                
+
             </Head>
 
             <header className="s-header">
                 <div className="header-logo">
                     <a className="site-logo" href="/">
-                        <img src="/images/unboxlogo.png" alt="Homepage"/>
-                        
+                        <img src="/images/unboxlogo.png" alt="Homepage"/>  
                     </a>
                 </div>
 
-                <nav className="header-nav">
+                <Menu right styles={menuStyles} itemListElement="a" disableAutoFocus isOpen={ true }>
+                    <div className={styles["header-nav__content"]}>
+                        <h3>Menu</h3>
 
-                    <a href="#0" className="header-nav__close" title="close"><span>Close</span></a>
-
-                    <div className="header-nav__content">
-                        <h3>Navigation</h3>
-                        
-                        <ul className="header-nav__list">
-                            <li className="current"><a className="smoothscroll"  href="#home" title="home">Home</a></li>
-                            <li><a className="smoothscroll"  href="#about" title="about">About</a></li>
-                            <li><a className="smoothscroll"  href="#services" title="services">Services</a></li>
-                            <li><a className="smoothscroll"  href="#works" title="works">Works</a></li>
-                            <li><a className="smoothscroll"  href="#clients" title="clients">Clients</a></li>
+                        <ul className={styles["header-nav__list"]}>
+                            <li className="current"><a className="smoothscroll"  href="#home" title="home">Start</a></li>
+                            <li><a className="smoothscroll"  href="#about" title="about">Over ons</a></li>
+                            <li><a className="smoothscroll"  href="#services" title="services">Diensten</a></li>
+                            <li><a className="smoothscroll"  href="#clients" title="clients">Partners</a></li>
                             <li><a className="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                         </ul>
-            
-                        <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
-            
-                        <ul className="header-nav__social">
-                            <li>
-                                <a href="#"><i className="fa fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i className="fa fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i className="fa fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i className="fa fa-behance"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i className="fa fa-dribbble"></i></a>
-                            </li>
-                        </ul>
 
-                    </div>
 
-                </nav>  
+                    </div> 
 
-                <a className="header-menu-toggle" href="#0">
-                    <span className="header-menu-text">Menu</span>
-                    <span className="header-menu-icon"></span>
-                </a>
+                </Menu>
+
 
             </header> 
 

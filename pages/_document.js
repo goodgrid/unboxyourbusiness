@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-            <script async src="{Config.matomoHost}matomo.js"/>
+            <script async src={Config.matomoHost + "matomo.js"} />
             <script dangerouslySetInnerHTML={{
               __html: `
               var _paq = window._paq = window._paq || [];

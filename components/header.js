@@ -1,4 +1,4 @@
-Miscimport Head from "next/head";
+import Head from "next/head";
 import Script from "next/script";
 import React, {useState} from "react";
 import { slide as Menu } from 'react-burger-menu'

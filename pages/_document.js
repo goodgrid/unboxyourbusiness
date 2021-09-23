@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
               _paq.push(['trackPageView']);
               _paq.push(['enableLinkTracking']);
               (function() {
-                  var u="${Config.matomoHost}"";
+                  var u="${Config.matomoHost}";
                   _paq.push(['setTrackerUrl', u+'matomo.php']);
                   _paq.push(['setSiteId', '${Config.matomoSiteId}']);
                   var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];

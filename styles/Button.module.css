@@ -81,8 +81,8 @@
  }
  
  .btn--stroke:hover, button.btn--stroke:hover {
-     border: 0.2rem solid #000000;
-     color: #000000;
+     border: 0.2rem solid #FFFFFF;
+     color: #FFFFFF;
  }
  
  .btn--pill, button.btn--pill {

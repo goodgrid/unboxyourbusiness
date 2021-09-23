@@ -1,4 +1,5 @@
 import styles from "../styles/Services.module.css";
+import Button from "../components/button.js";
 
 const Services = () => {
 
@@ -34,6 +35,7 @@ const Services = () => {
                             de praktijk in de gewenste situatie te komen en voeren dat plan 
                             samen met jou uit.
                         </p>
+                        <Button caption="Meer weten"/>
                     </div>
                 </div>
 
@@ -53,6 +55,8 @@ const Services = () => {
                             geborgd en gedocumenteerd, wat een enorm voordeel oplevert als je organisatie
                             ook gevolgd wordt door bijvoorbeeld investeerders, accountants of IT auditors.
                         </p>
+
+                        <Button caption="Meer weten"/>
                     </div>
                 </div>
 
@@ -77,6 +81,8 @@ const Services = () => {
                             van toegang via tools ontworpen worden.
                             
                         </p>
+
+                        <Button caption="Meer weten"/>
                     </div>
                 </div>
 
@@ -101,6 +107,8 @@ const Services = () => {
                             iteraties of fases.
 
                         </p>
+
+                        <Button href="/tools" caption="Meer weten"/>
                     </div>
                 </div>
 

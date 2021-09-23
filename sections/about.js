@@ -10,7 +10,7 @@ const About = () => {
 
             <div className={`${"row"} ${"section-header"} ${"has-bottom-sep"}`} data-aos="fade-up">
             <div className={"col-full"}>
-                    <h3 className={`${"subhead"} ${"subhead--dark"}`} >Hey daar</h3>
+                    <h3 className={`${"subhead"} ${"subhead--dark"}`} >Mr. President,</h3>
                     <h1 className={`${"display-1"} ${"display-1--light"}`}>Tear down those walls</h1>
                 </div>
             </div> 
@@ -18,10 +18,30 @@ const About = () => {
             <div className={`${"row"} ${"about-desc"}`}  data-aos="fade-up">
                 <div className={"col-full"}>
                     <p>
-                    Neem je idee uit de verpakking en werk samen met je omgeving. Unboxyourbusiness helpt 
-                    je om je idee tot profesionele organisatie te maken. Of je nu net begonnen bent of de 
-                    volgende fase in gaat. Unboxyourbusiness neemt je alles uit handen waar je niet voor 
-                    koos toen je je bedrijf startte.    
+                        Wij geloven dat organiseren niet ingewikkeld hoeft te zijn. Een van onze grootste 
+                        waarden is 'gewoon dóén' (niet te verwarren met 'gewóón doen'). Door op basis van 
+                        enkele eenvoudige basisprincipes aan de 
+                        gang te gaan, heb je het snelst inzicht op in de volgende stappen. In een onzekere
+                        omgeving is het zinloos om de onzekerheid te lijf te gaan, maar is de vaardigheid
+                         om altijd in een situatie te blijven waar je nog kunt veranderen. Wij denken dat 
+                         we die vaardigheid bezitten en daarmee je organisatie snel kunnen laten starten 
+                         én groeien.
+                    </p>
+                    <p>
+                        De tijd dat een organisatie alles zelf deed ligt alweer 30 jaar achter ons. Net zoals 
+                        het beheer van een eigen wagenpark fronzende bliken oplevert, laten we op veel meer
+                        fronten andere bedrijven doen waar ze goed in zijn. In een klant-leverancierrelatie 
+                        maar steeds vaker ook in een gelijkwaardige partnerrelatie. De hoeveelheid relaties 
+                        die een organisatie opbouwt neemt enorm toe. Samenwerken is het nieuwe organisatie. 
+                        Wij vinden dat samenwerking zo frictieloos als mogelijk moet plaatsvinden. We 
+                        selecteren daarvoor graag de partners, maken heldere afspraken en implementeren de juiste
+                        voorzieningen om dit te realiseren.
+                    </p>
+                    <p>
+                        Unboxyourbusiness helpt 
+                        je om van je idee een profesionele organisatie te maken. Of je nu net begonnen bent of de 
+                        volgende fase in gaat. Unboxyourbusiness neemt je alles uit handen waar je niet voor 
+                        koos toen je je bedrijf startte.    
                     </p>
                 </div>
             </div> 

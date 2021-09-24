@@ -35,7 +35,7 @@ const Services = () => {
                             de praktijk in de gewenste situatie te komen en voeren dat plan 
                             samen met jou uit.
                         </p>
-                        <Button caption="Meer weten"/>
+                        <Button href="/business-subjects" caption="Meer weten"/>
                     </div>
                 </div>
 
@@ -108,7 +108,7 @@ const Services = () => {
 
                         </p>
 
-                        <Button href="/tools" caption="Meer weten"/>
+                        <Button href="/technical-subjects" caption="Meer weten"/>
                     </div>
                 </div>
 

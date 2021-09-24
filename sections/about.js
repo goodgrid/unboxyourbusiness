@@ -19,8 +19,8 @@ const About = () => {
                 <div className={"col-full"}>
                     <p>
                         Wij geloven dat organiseren niet ingewikkeld hoeft te zijn. Een van onze grootste 
-                        waarden is 'gewoon dóén' (niet te verwarren met 'gewóón doen'). Door op basis van 
-                        enkele eenvoudige basisprincipes aan de 
+                        waarden is 'gewoon dóén' (niet te verwarren met 'gewóón doen' waarmee we weinig op hebben). 
+                        Door op basis van enkele eenvoudige basisprincipes aan de 
                         gang te gaan, heb je het snelst inzicht op in de volgende stappen. In een onzekere
                         omgeving is het zinloos om de onzekerheid te lijf te gaan, maar is de vaardigheid
                          om altijd in een situatie te blijven waar je nog kunt veranderen. Wij denken dat 
@@ -28,11 +28,11 @@ const About = () => {
                          én groeien.
                     </p>
                     <p>
-                        De tijd dat een organisatie alles zelf deed ligt alweer 30 jaar achter ons. Net zoals 
-                        het beheer van een eigen wagenpark fronzende bliken oplevert, laten we op veel meer
-                        fronten andere bedrijven doen waar ze goed in zijn. In een klant-leverancierrelatie 
+                        De tijd dat een organisatie alles zelf deed ligt ver achter ons. Net zoals 
+                        het beheer van een eigen wagenpark fronzende blikken oplevert, laten we op veel meer
+                        fronten andere organisaties doen waar ze goed in zijn. Dat gebeurt in een klant-leverancierrelatie 
                         maar steeds vaker ook in een gelijkwaardige partnerrelatie. De hoeveelheid relaties 
-                        die een organisatie opbouwt neemt enorm toe. Samenwerken is het nieuwe organisatie. 
+                        die je organisatie op deze manier opbouwt neemt enorm toe. Samenwerken is het nieuwe organiseren. 
                         Wij vinden dat samenwerking zo frictieloos als mogelijk moet plaatsvinden. We 
                         selecteren daarvoor graag de partners, maken heldere afspraken en implementeren de juiste
                         voorzieningen om dit te realiseren.

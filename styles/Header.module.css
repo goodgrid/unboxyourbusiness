@@ -109,6 +109,14 @@
     list-style: none;
 }
 
+.header-nav__sublist {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.4rem;
+    
+    
+    list-style: none;
+}
+
 .header-nav__list li {
     padding-left: 0;
     line-height: 4.5rem;

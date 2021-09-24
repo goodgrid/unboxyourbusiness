@@ -33,7 +33,7 @@ const Partners = () => {
                     <div className={"col-full"}>
                         <h3 className={"subhead"}>Onze partners</h3>
                         <h1 className={"display-2"}>
-                            Werken met cloud-born en best-of-breed platforms.
+                            Werken met vertrouwde partners en best-of-breed platforms.
                         </h1>
                     </div>
                 </div> 
@@ -49,6 +49,10 @@ const Partners = () => {
                             <a href="#0" title="" className={styles["clients__slide"]}><img className={styles["partner-icon"]} src="images/partners/box.png" /></a>
                             <a href="#0" title="" className={styles["clients__slide"]}><img className={styles["partner-icon"]} src="images/partners/salesforce.png" /></a>
                             <a href="#0" title="" className={styles["clients__slide"]}><img className={styles["partner-icon"]} src="images/partners/atlassian.png" /></a>
+                            <a href="#0" title="" className={styles["clients__slide"]}><img className={styles["partner-icon"]} src="images/partners/cloudguide.png" /></a>
+                            <a href="#0" title="" className={styles["clients__slide"]}><img className={styles["partner-icon"]} src="images/partners/moneypenny.svg" /></a>
+                            <a href="#0" title="" className={styles["clients__slide"]}><img className={styles["partner-icon"]} src="images/partners/indocs.png" /></a>
+                            <a href="#0" title="" className={styles["clients__slide"]}><img className={styles["partner-icon"]} src="images/partners/incompanion.png" /></a>
 
                         </Carousel>                        
                             

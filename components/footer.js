@@ -18,15 +18,8 @@ const Footer = () => {
                     </div>
 
                     <div className="col-six tab-full right footer-subscribe">
-                        <h4 className={styles["h4"]}>Get Notified</h4>
-                        <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
-                        <div className={styles["subscribe-form"]}>
-                            <form id="mc-form" className={"group"} novalidate="true">
-                                <input type="email" value="" name="EMAIL" className="email" id="mc-email" placeholder="Email Address" required=""/>
-                                <input type="submit" name="subscribe" value="Subscribe"/>
-                                <label for="mc-email" className="subscribe-message"></label>
-                            </form>
-                        </div>
+                        <h4 className={styles["h4"]}>Wij zijn implementatiepartner van</h4>
+                        <a href="http://www.cloudguide.nl/?utm_campaign=unboxyourbusiness" target="_new"><img src="/images/partners/cloudguide.png"/></a>
 
                     </div>
 

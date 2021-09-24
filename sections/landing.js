@@ -5,6 +5,19 @@ const Landing = () => {
 
     return (
         <>
+
+            <div id="preloader">
+                <div id="loader">
+                    <div class="line-scale-pulse-out">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+
             <section id="home" className={`${styles["s-home"]} ${"target-section"}`} data-parallax="scroll" data-image-src="/images/hero-bg.jpg" data-natural-width={3000} data-natural-height={2000} data-position-y="center">
 
                 <div className={styles["overlay"]}></div>
@@ -21,18 +34,11 @@ const Landing = () => {
                             betekenisvolle digitale ervaringen <br/>
                             voor medewerkers, klanten en partners <br/>
                             van startende en groeiende organisaties.
-                            {/*Wij zijn een creatieve groep <br/>
-                            mensen die betekenisvolle <br/>
-                            organisaties en digitale  <br/>
-                            ervaringen ontwerpt <br/>
-                            en implementeert.
-                            */}
-                            
                         </h1>
 
                         <div className={styles["home-content__buttons"]}>
-                            <Button href="#contact" caption="Start een project"/>
-                            <Button href="#about" caption="Meer over ons"/>
+                            <Button type="stroke" href="#contact" caption="Start een project"/>
+                            <Button type="stroke" href="#about" caption="Meer over ons"/>
                         </div>
 
                     </div>

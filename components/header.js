@@ -13,7 +13,7 @@ var menuStyles = {
       top: '36px'
     },
     bmBurgerBars: {
-      background: '#39b54a'
+      background: '#9DF75C'
     },
     bmBurgerBarsHover: {
       background: '#39b54a'
@@ -63,7 +63,7 @@ const Header = () => {
                 <script type="text/javascript" src="/js/pace.min.js"></script>
                 <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
                 <script type="text/javascript" src="/js/client.js"></script>
-                <script type="text/javascript" src="/js/plugins.js"></script>
+                <script type="text/javascript" src="/js/parallax.js"></script>
 
             </Head>
 
@@ -79,33 +79,25 @@ const Header = () => {
                         <h3>Menu</h3>
 
                         <ul className={styles["header-nav__list"]}>
-                            <li className="current"><a className="smoothscroll"  href="#home" title="home">Start</a></li>
-                            <li><a className="smoothscroll"  href="#about" title="about">Over ons</a></li>
-                            <li><a className="smoothscroll"  href="#services" title="services">Diensten</a></li>
-                            <li><a className="smoothscroll"  href="#clients" title="clients">Partners</a></li>
-                            <li><a className="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                            <li className="current"><a className="smoothscroll"  href="/#home" title="home">Start</a></li>
+                            <li><a className="smoothscroll"  href="/#about" title="about">Over ons</a></li>
+                            <li><a className="smoothscroll"  href="/#services" title="services">Diensten</a></li>
+                            <ul className={styles["header-nav__sublist"]}>
+                              <li><a className="smoothscroll"  href="/business-subjects" title="services">Organisatie & Processen</a></li>
+                              <li><a className="smoothscroll"  href="/architecture-subjects" title="services">Ontwerp & Architectuur</a></li>
+                              <li><a className="smoothscroll"  href="/data-subjects" title="services">Data & Veiligheid</a></li>
+                              <li><a className="smoothscroll"  href="/technical-subjects" title="services">Tools & Systemen</a></li>
+                            </ul>
+                            <li><a className="smoothscroll"  href="/#clients" title="clients">Partners</a></li>
+                            <li><a className="smoothscroll"  href="/#contact" title="contact">Contact</a></li>
                         </ul>
-
-
                     </div> 
-
                 </Menu>
 
 
             </header> 
 
             
-            <div id="preloader">
-                <div id="loader">
-                    <div class="line-scale-pulse-out">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-            </div>
 
         </>
     )

@@ -1,0 +1,125 @@
+.subhead {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.333;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  color: #39b54a;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subhead--dark {
+  color: darkslategrey;
+}
+
+  /* ------------------------------------------------------------------- 
+  * ## section header
+  * ------------------------------------------------------------------- */
+  .section-header {
+    text-align: center;
+    position: relative;
+    margin-bottom: 3.6rem;
+    max-width: 960px;
+  }
+  
+  .section-header.has-bottom-sep {
+    padding-bottom: 2.1rem;
+    position: relative;
+  }
+  
+  .section-header.has-bottom-sep::before {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .section-header.has-bottom-sep.light-sep::before {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  
+  /* ------------------------------------------------------------------- 
+  * responsive:
+  * section-header
+  * ------------------------------------------------------------------- */
+  @media only screen and (max-width: 1200px) {
+    .section-header {
+        max-width: 800px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .section-header {
+        max-width: 700px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .s-clients {
+        padding-bottom: 17.4rem;
+    }
+    .section-header.has-bottom-sep::before {
+        width: 400px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .section-header.has-bottom-sep {
+        padding-bottom: 0;
+    }
+    .section-header.has-bottom-sep::before {
+        width: 250px;
+    }
+  }
+
+/* ===================================================================
+* # about
+*
+* ------------------------------------------------------------------- */
+.section {
+    padding-top: 16.2rem;
+    padding-bottom: 9rem;
+    background-color: #84ac87;
+    color: #FFFFFF;
+    position: relative;
+  }
+  
+  .section .section-header.has-bottom-sep::before {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  .about-desc {
+    font-size: 2.4rem;
+    line-height: 1.75;
+    text-align: center;
+    max-width: 1024px;
+  }
+  
+  .section-line {
+    display: block;
+    width: 2px;
+    height: 10.2rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 7.2rem;
+    top: 0;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .about-desc {
+        font-size: 1.8rem;
+    }
+    .stats__count {
+        font-size: 7.8rem;
+    }
+  }
+  

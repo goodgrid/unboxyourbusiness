@@ -57,8 +57,8 @@ const Header = () => {
             <Head>
                 <title>Start unboxing your business</title>
 
-                <link rel="shortcut icon" href="/favicon.png"/>
-                <link rel="icon" href="/favicon.png"/>
+                <link rel="shortcut icon" href="/favicon.ico"/>
+                <link rel="icon" href="/favicon.ico"/>
 
                 <script type="text/javascript" src="/js/pace.min.js"></script>
                 <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>

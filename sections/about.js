@@ -10,7 +10,7 @@ const About = () => {
 
             <div className={`${"row"} ${"section-header"} ${"has-bottom-sep"}`} data-aos="fade-up">
             <div className={"col-full"}>
-                    <h3 className={`${"subhead"} ${"subhead--dark"}`} >Mr. President,</h3>
+                    <h3 className={`${"subhead"} ${"subhead--dark"}`} >Hey Mr. President</h3>
                     <h1 className={`${"display-1"} ${"display-1--light"}`}>Tear down those walls</h1>
                 </div>
             </div> 
@@ -19,7 +19,7 @@ const About = () => {
                 <div className={"col-full"}>
                     <p>
                         Wij geloven dat organiseren niet ingewikkeld hoeft te zijn. Een van onze grootste 
-                        waarden is 'gewoon dóén' (niet te verwarren met 'gewóón doen' waarmee we weinig op hebben). 
+                        waarden is 'gewoon dóén' (niet te verwarren met 'gewóón doen' waarmee we weinig mee op hebben). 
                         Door op basis van enkele eenvoudige basisprincipes aan de 
                         gang te gaan, heb je het snelst inzicht op in de volgende stappen. In een onzekere
                         omgeving is het zinloos om de onzekerheid te lijf te gaan, maar is de vaardigheid

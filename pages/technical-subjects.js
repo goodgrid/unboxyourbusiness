@@ -3,6 +3,10 @@ import Footer from "../components/footer.js";
 import Section from "../components/section.js";
 import Button from "../components/button.js";
 import {ItemList, Item} from "../components/itemlist.js";
+import Box from "../solutions/box.js";
+import Okta from "../solutions/okta.js";
+import Salesforce from "../solutions/salesforce.js";
+import Atlassian from "../solutions/atlassian.js";
 
 
 const Tools = () => {
@@ -49,7 +53,7 @@ const Tools = () => {
                             het werk, vermindert fouten en verkleint risico's op datalekken terwijl de employee en 
                             customer experience drastisch verbetert.
                         </p>
-                        <Button caption="Onze oplossing"/>
+                        <Button href="#okta" caption="Onze oplossing"/>
                     </Item>
                     <Item title="Frictionless Collaboration & Document Management" icon="ProtectedDocument">
                         <p>
@@ -67,7 +71,7 @@ const Tools = () => {
                             Algemene Verordening Gegevensbescherming tot de Archiefwet.
                         </p>
 
-                        <Button caption="Onze oplossing"/>
+                        <Button href="#box" caption="Onze oplossing"/>
                     </Item>
                     <Item title="Data Centric Apps" icon="Safe">
                         <p>
@@ -83,7 +87,7 @@ const Tools = () => {
                             gegevens bij te houden in Excel. De kans is om de gegevens centraal en veilig te bewaren
                             en beheren en te ontsluiten naar het werkproces via eenvoudige schermen.
                         </p>
-                        <Button caption="Onze oplossing"/>
+                        <Button href="#salesforce" caption="Onze oplossing"/>
                         
                     </Item>
                     <Item title="Workload management" icon="Work">
@@ -101,7 +105,7 @@ const Tools = () => {
                             toegewezen krigjen, voeren die activiteit op basis van hun expertise en profesonaliteit uit. 
                             Eventueel kan verwezen worden naar generieke werkinstructies.
                         </p>
-                        <Button caption="Onze oplossing"/>
+                        <Button href="#atlassian" caption="Onze oplossing"/>
                     </Item>
 
                 </ItemList>
@@ -109,6 +113,12 @@ const Tools = () => {
 
 
             </Section>
+
+            <Okta/>
+            <Box/>
+            <Salesforce/>
+            <Atlassian/>
+
             <Footer/>
         </>
     )

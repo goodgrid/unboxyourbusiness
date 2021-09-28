@@ -1,8 +1,8 @@
-import Header from "../components/header.js";
-import Footer from "../components/footer.js";
-import Section from "../components/section.js";
-import Button from "../components/button.js";
-import {ItemList, Item} from "../components/itemlist.js";
+import Header from "../../components/header.js";
+import Footer from "../../components/footer.js";
+import Section from "../../components/section.js";
+import Button from "../../components/button.js";
+import {ItemList, Item} from "../../components/itemlist.js";
 
 
 const Tools = () => {
@@ -10,7 +10,7 @@ const Tools = () => {
     return (
         <>  
             <Header/>
-            <Section title="Ontwerp & Architectuur" subhead="wendbaar blijven door eenvoudig te ontwerpen">
+            <Section title="Ontwerp & Architectuur" subhead="wendbaar blijven met doeltreffend ontwerp">
 
                 <div className={`${"row"} ${"about-desc"}`}  data-aos="fade-up">
                     <div className={"col-full"}>

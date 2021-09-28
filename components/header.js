@@ -83,10 +83,10 @@ const Header = () => {
                             <li><a className="smoothscroll"  href="/#about" title="about">Over ons</a></li>
                             <li><a className="smoothscroll"  href="/#services" title="services">Diensten</a></li>
                             <ul className={styles["header-nav__sublist"]}>
-                              <li><a className="smoothscroll"  href="/business-subjects" title="services">Organisatie & Processen</a></li>
-                              <li><a className="smoothscroll"  href="/architecture-subjects" title="services">Ontwerp & Architectuur</a></li>
-                              <li><a className="smoothscroll"  href="/data-subjects" title="services">Data & Veiligheid</a></li>
-                              <li><a className="smoothscroll"  href="/technical-subjects" title="services">Tools & Systemen</a></li>
+                              <li><a className="smoothscroll"  href="/business" title="services">Organisatie & Processen</a></li>
+                              <li><a className="smoothscroll"  href="/architecture" title="services">Ontwerp & Architectuur</a></li>
+                              <li><a className="smoothscroll"  href="/data" title="services">Data & Veiligheid</a></li>
+                              <li><a className="smoothscroll"  href="/tools" title="services">Tools & Systemen</a></li>
                             </ul>
                             <li><a className="smoothscroll"  href="/#clients" title="clients">Partners</a></li>
                             <li><a className="smoothscroll"  href="/#contact" title="contact">Contact</a></li>

@@ -1,4 +1,5 @@
-import SolutionSheet from "../components/solutionsheet.js";
+import SolutionSheet from "../../components/solutionsheet.js";
+
 
 const Box = () => {
 
@@ -61,8 +62,10 @@ const Box = () => {
                     
 
                 </vendor>
+                
 
             </SolutionSheet>
+            
         </>
 )}
 

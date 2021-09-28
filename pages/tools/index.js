@@ -1,12 +1,13 @@
-import Header from "../components/header.js";
-import Footer from "../components/footer.js";
-import Section from "../components/section.js";
-import Button from "../components/button.js";
-import {ItemList, Item} from "../components/itemlist.js";
-import Box from "../solutions/box.js";
-import Okta from "../solutions/okta.js";
-import Salesforce from "../solutions/salesforce.js";
-import Atlassian from "../solutions/atlassian.js";
+import Header from "../../components/header.js";
+import Footer from "../../components/footer.js";
+import Section from "../../components/section.js";
+import Button from "../../components/button.js";
+import {ItemList, Item} from "../../components/itemlist.js";
+import Box from "./box.js";
+import Okta from "./okta.js";
+import Salesforce from "./salesforce.js";
+import Atlassian from "./atlassian.js";
+import Contact from "../../sections/contact.js";
 
 
 const Tools = () => {
@@ -118,6 +119,7 @@ const Tools = () => {
             <Box/>
             <Salesforce/>
             <Atlassian/>
+            <Contact/>
 
             <Footer/>
         </>

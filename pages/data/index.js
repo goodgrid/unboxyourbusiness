@@ -1,8 +1,8 @@
-import Header from "../components/header.js";
-import Footer from "../components/footer.js";
-import Section from "../components/section.js";
-import Button from "../components/button.js";
-import {ItemList, Item} from "../components/itemlist.js";
+import Header from "../../components/header.js";
+import Footer from "../../components/footer.js";
+import Section from "../../components/section.js";
+import Button from "../../components/button.js";
+import {ItemList, Item} from "../../components/itemlist.js";
 
 
 const Tools = () => {

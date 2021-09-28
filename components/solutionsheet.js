@@ -1,5 +1,5 @@
-import { Children } from "react";
 import styles from "../styles/SolutionSheet.module.css";
+import Button from "../components/button.js"
 
 const SolutionSheet = (props) => {
 
@@ -24,6 +24,8 @@ const SolutionSheet = (props) => {
                     <div className={styles["contact-primary"]}>
 
                         {props.children[0]}
+
+                        <Button href="#contact" caption="Meer weten?"/>
                     </div>
 
                     <div className={styles["contact-secondary"]}>

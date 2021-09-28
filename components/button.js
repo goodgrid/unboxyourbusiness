@@ -1,22 +1,21 @@
 import styles from "../styles/Button.module.css"
 
-const Button = (props) => {
+export default function Button({href, onClick, caption, type})  {
+
     let classes = styles["btn"] + " " + styles["btn--primary"]
 
-    if (props.type == "stroke") {
+    if (type == "stroke") {
         classes = classes + " " + styles["btn--stroke"]
     }
-
-    console.log(classes);
+    
     return (
         
         <>  
-            <a href={props.href} className={classes}>
-                {props.caption}
+            <a href={href} onClick={onClick} className={classes}>
+                {caption}
             </a>
 
       </>
       )
 }
 
-export default Button;

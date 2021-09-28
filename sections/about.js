@@ -2,8 +2,6 @@ import styles from "../styles/About.module.css";
 
 const About = () => {
 
-
-
     return (
         <>  
             <section id='about' className={styles["s-about"]}>

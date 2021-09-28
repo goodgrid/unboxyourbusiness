@@ -1,9 +1,12 @@
-import Header from "../components/header.js";
-import Footer from "../components/footer.js";
-import Section from "../components/section.js";
-import Button from "../components/button.js";
-import {ItemList, Item} from "../components/itemlist.js";
-
+import Header from "../../components/header.js";
+import Footer from "../../components/footer.js";
+import Section from "../../components/section.js";
+import Button from "../../components/button.js";
+import {ItemList, Item} from "../../components/itemlist.js";
+import Finance from "./finance.js";
+import Marketing from "./marketing.js";
+import Service from "./service.js";
+import Mobiliteit from "./mobiliteit.js";
 
 const Tools = () => {
 
@@ -36,7 +39,7 @@ const Tools = () => {
                             versturen van facturen is voor de meeste organisaties relevant. 
 
                         </p>
-                        <Button caption="Onze oplossing"/>
+                        <Button href="#finance" caption="Onze oplossing"/>
                     </Item>
                     <Item title="Sales & Marketing" icon="Touch">
                         <p>
@@ -45,9 +48,23 @@ const Tools = () => {
                             brengen via content marketing, maar natuurlijk ook met advertenties,
                             webinars of events.
                         </p>
-                        <Button caption="Onze oplossing"/>
+                        <Button href="#marketing" caption="Onze oplossing"/>
                         
                     </Item>
+
+                    <Item title="Service & Change Management" icon="Construction">
+                        <p>
+                            Afhankelijk van de diensten van je bedrijf helpen we je met het ontwerpen en 
+                            implementeren van de operationele processen. Het kan gaan om het ondersteunen
+                            van je medewerkers of klanten in het gebruik van je diensten via servicedesk-
+                            processen, maar ook om de processen om je dienstverlening beschikbaar en betrouwbaar 
+                            te houden.
+
+                        </p>
+                        <Button href="#service" caption="Onze oplossing"/>
+                        
+                    </Item>
+
                     <Item title="Bereikbaarheid & Mobiliteit" icon="Headset">
                         <p>
                             Iedere organisatie heeft basisvoorzienignen nodig, zoals email, chat, agenda en 
@@ -57,15 +74,18 @@ const Tools = () => {
                             behoort tot de mogelijkheden.
 
                         </p>
-                        <Button caption="Onze oplossing"/>
+                        <Button href="#mobiliteit" caption="Onze oplossing"/>
                         
                     </Item>
 
                 </ItemList>
-
-
-
             </Section>
+
+            <Finance/>
+            <Marketing/>
+            <Service/>
+            <Mobiliteit/>
+
             <Footer/>
         </>
     )

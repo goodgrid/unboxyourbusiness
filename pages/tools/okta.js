@@ -1,4 +1,4 @@
-import SolutionSheet from "../components/solutionsheet.js";
+import SolutionSheet from "../../components/solutionsheet.js";
 
 const Okta = () => {
 

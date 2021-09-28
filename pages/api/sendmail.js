@@ -1,3 +1,4 @@
+import { Config } from "../../components/config";
 
 function sendEmail(req, res) {
     console.log(req.body)
@@ -20,11 +21,13 @@ function sendEmail(req, res) {
             }),
             headers: {
               'Content-Type': 'application/json',
-              'api-key':'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'
+              'api-key': Config.sendinblueKey
             }
           })
-          .then(response => res.status(200).json({ error: "" }))
-          .then(text => console.log(text))
+          .then((response) => {
+             res.status(response.status).json({ error: "" })
+            })
+          
     })
 
 }

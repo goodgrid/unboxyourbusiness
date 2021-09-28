@@ -316,16 +316,19 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1500px) {
     .home-content h1 {
+        hyphens: auto;
         font-size: 6rem;
     }
     .home-content__main {
         max-width: 1000px;
     }
+    
 }
 
 @media only screen and (max-width: 1200px) {
     .home-content h1 {
-        font-size: 5.5rem;
+        hyphens: auto;
+        font-size: 5rem;
     }
     .home-content__main {
         max-width: 800px;
@@ -334,7 +337,8 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1000px) {
     .home-content h1 {
-        font-size: 4.6rem;
+        hyphens: auto;
+        font-size: 4rem;
     }
     .home-content br {
         display: none;

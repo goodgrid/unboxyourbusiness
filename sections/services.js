@@ -60,7 +60,7 @@ const Services = () => {
 
                         Maar het belangrijkste is dat de mensen die 
                         met je gegevens moeten werken ook toegang hebben en het makkelijk 
-                        kunnen vinden op basis van criteria die voor hen relevant zijn. Van 
+                        kunnen vinden op basis van doorsneden die voor hen relevant zijn. Van 
                         hieruit onstaat een 'domeinmodel' van jouw typen data, de 
                         mensen en systemen die er een belang bij hebben en de risico's 
                         die ermee gemoeid zijn. Op basis hiervan kunnen de juiste manieren

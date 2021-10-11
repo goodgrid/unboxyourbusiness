@@ -55,6 +55,8 @@ const Header = () => {
     return (
         <>
             <Head>
+                <meta name="description" content="Wij ontwerpen en implementeren betekenisvolle digitale ervaringen voor medewerkers, klanten en partners van startende en groeiende organisaties."/>
+                <meta http-equiv = "content-language" content = "nl"/>
                 <title>Start unboxing your business</title>
 
                 <link rel="shortcut icon" href="/favicon.ico"/>

@@ -30,7 +30,7 @@ const Services = () => {
                         de praktijk in de gewenste situatie te komen en voeren dat plan 
                         samen met jou uit.
                     </p>
-                    <Button href="/business-subjects" caption="Meer weten"/>
+                    <Button href="/business/" caption="Meer weten"/>
 
                 </Item>
                 <Item title="Ontwerp & Architectuur" icon="HomeGroup">
@@ -45,7 +45,7 @@ const Services = () => {
                         ook gevolgd wordt door bijvoorbeeld investeerders, accountants of IT auditors.
 
                     </p>
-                    <Button href="/architecture-subjects" caption="Meer weten"/>
+                    <Button href="/architecture/" caption="Meer weten"/>
 
                 </Item>
                 <Item title="Data & Veiligheid" icon="Badge">
@@ -60,14 +60,14 @@ const Services = () => {
 
                         Maar het belangrijkste is dat de mensen die 
                         met je gegevens moeten werken ook toegang hebben en het makkelijk 
-                        kunnen vinden op basis van criteria die voor hen relevant zijn. Van 
+                        kunnen vinden op basis van doorsneden die voor hen relevant zijn. Van 
                         hieruit onstaat een 'domeinmodel' van jouw typen data, de 
                         mensen en systemen die er een belang bij hebben en de risico's 
                         die ermee gemoeid zijn. Op basis hiervan kunnen de juiste manieren
                         van toegang via tools ontworpen worden.
                     </p>
 
-                    <Button href="/data-subjects" caption="Meer weten"/>
+                    <Button href="/data/" caption="Meer weten"/>
 
                 </Item>
                 <Item title="Tools & Systemen" icon="SearchAndApps">
@@ -86,7 +86,7 @@ const Services = () => {
                         iteraties of fases.
 
                     </p>
-                    <Button href="/technical-subjects" caption="Meer weten"/>
+                    <Button href="/tools/" caption="Meer weten"/>
 
                 </Item>
 

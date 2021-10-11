@@ -32,7 +32,7 @@ const Tools = () => {
                 <ItemList>
                     <Item title="Gegevenslandschap & Informatiearchitectuur" icon="HomeGroup">
                         <p>
-                            Om komende verandering in goede banen te leiden is het raadzaam om een manier
+                            Om komende verandering in goede banen te leiden is het slim om een manier
                             te hebben om blijvend te weten welke gegevens je organisatie heeft, hoe de verbanden
                             zijn tussen die groepen gegevens en welk belang
                             en welke gevoeligheid ze hebben. Door hier bewust mee om te gaan zet je jezelf
